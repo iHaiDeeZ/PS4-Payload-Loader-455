@@ -653,13 +653,13 @@ var postExploit = function() {
       var thread = malloc(0x08);
       var thr_name = malloc(0x10);
       p.writeString(thr_name, "loader");
-      alert("PS4Hen & Debug Settings Loaded.");
 			// write loader
 			for (var i = 0; i < payload.length; i++) {
 				p.write4(code_addr.add32(i * 4), payload[i]);
 			}
 			// writeLoader(p, code_addr);
 			// Payload Loader ^
+			alert("PS4Hen & Debug Settings Loaded.");
       var createRet = p.fcall(scePthreadCreate, thread, 0, code_addr, 0, thr_name);
     }
   } catch(e) {
