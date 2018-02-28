@@ -24,28 +24,44 @@ ____   ____    .__   __
 <html>
 <head>
   <title>PS4 Exploit Loader &bull; Vultra</title>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js" type="text/javascript">
+</script><!-- Latest compiled and minified CSS -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" type="text/css"><!-- Optional theme -->
+  <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" rel="stylesheet" type="text/css"><!-- Latest compiled and minified JavaScript -->
+
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" type="text/javascript">
 </script>
-<link href="css/custom.css" rel="stylesheet" type="text/css">
-<script src="js/screen.js" type="text/javascript"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato:100" rel="stylesheet" type="text/css">
+  <link href="css/custom.css" rel="stylesheet" type="text/css">
+  <link href="css/side.css" rel="stylesheet" type="text/css">
 </head>
 
 <body>
- <body onload="runExploit()">
-  <div class="container">
-    <div class="ps4-icons">
-      <div class="square-icon ps-icon"></div>
-      <div class="cross-icon ps-icon"></div>
-      <div class="circle-icon ps-icon"></div>
-      <div class="triangle-icon ps-icon"></div>
+  <div class="video-background">
+    <div class="video-foreground">
+      <iframe frameborder="0" src="https://www.youtube.com/embed/LlXJ5pgI84g?controls=0&showinfo=0&?rel=0&amp;vq=hd2160&autoplay=1&loop=1&playlist=LlXJ5pgI84g"></iframe>
     </div>
   </div>
 
-  <div id="loader" class="loader"></div>
+  <div class="container">
+    <div class="content">
+      <div class="logo"><img src=""></div>
 
-  <div id="allset" class="info" style="display:none;">
+      <div class="title">
+        PS4Xploit
+      </div>
+
+      <div class="moto">
+      <h2>Payload Loader for 4.55</h2>
+      </div>
+
+      <div class="searchbar">
+        <div class="row">
+          <button type="button" onclick="runExploit()" class="btn btn-primary">PS4 4.55 Homebrew Loader</button>
+          <div id="loader" class="loader"></div>
+          <div id="allset" class="info" style="display:none;">
     You're all set!
   </div>
-
   <div id="fail" class="info" style="display:none;">
     Something went wrong :(
   </div>
@@ -53,13 +69,25 @@ ____   ____    .__   __
   <div id="badfw" class="info" style="display:none;">
     Only firmware 4.55 is supported!
   </div>
+        </div>
+      </div>
+    </div>
+  </div>
 
-  <div class="credits">
+  <div class="footer">
     <script type="text/javascript">
               document.write(new Date().getFullYear());
     </script>&copy; <a href="https://twitter.com/C0rpVultra">Vultra</a><br>
     PS4Xploit v1 is not associated in any way with <a href="https://playstation.com">Playstation</a> and <a href="https://psxhax.com/">PSXHAX</a>.
-  </div>
+  </div><script type="text/javascript">
+              $(document).ready(function(){
+                      $(".logo").fadeIn(2000);
+                      $(".title").fadeIn(4000);
+                      $(".moto").fadeIn(6000);
+                      $(".searchbar").fadeIn(8000);
+                      $(".footer").fadeIn(8000);
+                  });
+  </script>
 
   <script>
     function runExploit() {
@@ -80,8 +108,8 @@ ____   ____    .__   __
   </script>
 
   <script src="js/rop.js"></script>
-  <script src="js/syscalls.js"></script>
   <script src="js/payload.js"></script>
+  <script src="js/syscalls.js"></script>
   <script src="js/loader.js"></script>
   <script src="js/userland.js"></script>
   <script src="js/kernel.js"></script>
