@@ -1,17 +1,20 @@
 window.nameforsyscall = swapkeyval(window.syscallnames);
-window.syscalls = {};
+window.syscalls       = {};
+
 /* Get syscall name by index */
-function swapkeyval(json) {
+function swapkeyval(json){
   var ret = {};
-  for (var key in json) {
+  for(var key in json){
     if (json.hasOwnProperty(key)) {
       ret[json[key]] = key;
     }
   }
   return ret;
 }
+
 /* A long ass map of system call names -> number, you shouldn't need to touch this */
-window.syscallnames = {
+window.syscallnames =
+{
   "sys_exit": 1,
   "sys_fork": 2,
   "sys_read": 3,
@@ -50,7 +53,6 @@ window.syscallnames = {
   "sys_ioctl": 54,
   "sys_reboot": 55,
   "sys_revoke": 56,
-  "sys_execve": 59,
   "sys_execve": 59,
   "sys_msync": 65,
   "sys_munmap": 73,
@@ -194,6 +196,7 @@ window.syscallnames = {
   "sys_cpuset_setaffinity": 488,
   "sys_openat": 499,
   "sys_pselect": 522,
+
   "sys_regmgr_call": 532,
   "sys_jitshm_create": 533,
   "sys_jitshm_alias": 534,
