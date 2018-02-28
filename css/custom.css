@@ -1,177 +1,168 @@
 @import url('https://fonts.googleapis.com/css?family=Merriweather+Sans');
 html {
-  overflow: hidden;
+	overflow: hidden;
 }
 body {
-  font-family: 'Merriweather Sans', sans-serif;
-  margin: 0px;
+	font-family: 'Merriweather Sans', sans-serif;
+	margin: 0px;
 }
 #thanks {
-  padding: 10%;
+	padding: 10%;
 }
 #thanks-button {
-  cursor: pointer;
-  padding: 2%;
-  color: #fff;
-  position: absolute;
-  bottom: 0%;
-  z-index: 12;
-  background: #000;
-    -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
+	cursor: pointer;
+	padding: 2%;
+	color: #fff;
+	position: absolute;
+	bottom: 0%;
+	z-index: 12;
+	background: #000;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 }
 #close-cross {
-   cursor: pointer;
+	cursor: pointer;
 }
 .container {
-  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d80d6+0,05306d+34,05306d+70,1d80d6+100 */
-background: #1d80d6; /* Old browsers */
-background: -moz-linear-gradient(-45deg,  #1d80d6 0%, #05306d 34%, #05306d 70%, #1d80d6 100%); /* FF3.6-15 */
-background: -webkit-linear-gradient(-45deg,  #1d80d6 0%,#05306d 34%,#05306d 70%,#1d80d6 100%); /* Chrome10-25,Safari5.1-6 */
-background: linear-gradient(135deg,  #1d80d6 0%,#05306d 34%,#05306d 70%,#1d80d6 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d80d6', endColorstr='#1d80d6',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-  position: absolute;
-  width: 100vw;
-  height: 100vh;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#1d80d6+0,05306d+34,05306d+70,1d80d6+100 */
+	background: #1d80d6;
+	/* Old browsers */
+	background: -moz-linear-gradient(-45deg, #1d80d6 0%, #05306d 34%, #05306d 70%, #1d80d6 100%);
+	/* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg, #1d80d6 0%, #05306d 34%, #05306d 70%, #1d80d6 100%);
+	/* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg, #1d80d6 0%, #05306d 34%, #05306d 70%, #1d80d6 100%);
+	/* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d80d6', endColorstr='#1d80d6', GradientType=1);
+	/* IE6-9 fallback on horizontal gradient */
+	position: absolute;
+	width: 100vw;
+	height: 100vh;
 }
 .ps4-icons {
-    position: relative; 
-    width:12vw;
-    margin:auto;
-    margin-top: 10vw;
-  -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
+	position: relative;
+	width: 12vw;
+	margin: auto;
+	margin-top: 10vw;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
 }
-
 @-moz-keyframes scaling {
-  0% {
-    transform: rotate(270deg) scale(0);
-  }
-  100% {
-    transform: rotate(360deg) scale(1);
-  }
+	0% {
+		transform: rotate(270deg) scale(0);
+	}
+	100% {
+		transform: rotate(360deg) scale(1);
+	}
 }
 @-webkit-keyframes scaling {
-  0% {
-    transform: rotate(270deg) scale(0);
-  }
-  100% {
-    transform: rotate(360deg) scale(1);
-  }
+	0% {
+		transform: rotate(270deg) scale(0);
+	}
+	100% {
+		transform: rotate(360deg) scale(1);
+	}
 }
-
 @keyframes scaling {
-  0% {
-    transform: rotate(270deg) scale(0);
-  }
-  100% {
-    transform: rotate(360deg) scale(1);
-  }
+	0% {
+		transform: rotate(270deg) scale(0);
+	}
+	100% {
+		transform: rotate(360deg) scale(1);
+	}
 }
 @-o-keyframes scaling {
-  0% {
-    transform: rotate(270deg) scale(0);
-  }
-  100% {
-    transform: rotate(360deg) scale(1);
-  }
+	0% {
+		transform: rotate(270deg) scale(0);
+	}
+	100% {
+		transform: rotate(360deg) scale(1);
+	}
 }
-
-
 .cross-icon {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/cross.png) no-repeat;
-  background-size: 100%;
-  width: 4vw;
-  height: 4vw;
-  margin: 1vw;
-  float:left;
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/cross.png) no-repeat;
+	background-size: 100%;
+	width: 4vw;
+	height: 4vw;
+	margin: 1vw;
+	float: left;
 }
-
 .square-icon {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/square.png) no-repeat;
-  background-size: 100%;
-  width: 4vw;
-  height: 4vw;
-  margin: 1vw;
-  float:left;
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/square.png) no-repeat;
+	background-size: 100%;
+	width: 4vw;
+	height: 4vw;
+	margin: 1vw;
+	float: left;
 }
 .triangle-icon {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/triangle.png) no-repeat;
-  background-size: 100%;
-  width: 4vw;
-  height: 4vw;
-  margin: 1vw;
-  float:left;
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/triangle.png) no-repeat;
+	background-size: 100%;
+	width: 4vw;
+	height: 4vw;
+	margin: 1vw;
+	float: left;
 }
 .circle-icon {
-  background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/circle.png) no-repeat;
-  background-size: 100%;
-  width: 4vw;
-  height: 4vw;
-  margin: 1vw;
-  float:left;
+	background: url(https://s3-us-west-2.amazonaws.com/s.cdpn.io/769286/circle.png) no-repeat;
+	background-size: 100%;
+	width: 4vw;
+	height: 4vw;
+	margin: 1vw;
+	float: left;
 }
-
 .info {
-      overflow: hidden;
-      position: fixed;
-      position: absolute;
-      background-size: 100%;
-      top: 50%;
-      left: 50%;
-      float:left;
-      color: #FFFFFF;
-
-      font-size: 45px;
-      font-family: sans-serif;
-
-      transform: translate(-50%, -50%);
-    }
-
-    .credits {
-       overflow: hidden;
-      position: fixed;
-      position: absolute;
-      background-size: 100%;
-      right: 0;
-      bottom: 0;
-      left: 0;
-      height: 5%;
-      float:left;
-
-  color: #ffffff;
-  background-color: #000000;
-
-  text-align: center;
-   font-size: 15px;
-      font-family: sans-serif;
+	overflow: hidden;
+	position: fixed;
+	position: absolute;
+	background-size: 100%;
+	top: 50%;
+	left: 50%;
+	float: left;
+	color: #FFFFFF;
+	font-size: 45px;
+	font-family: sans-serif;
+	transform: translate(-50%, -50%);
+}
+.credits {
+	overflow: hidden;
+	position: fixed;
+	position: absolute;
+	background-size: 100%;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	height: 5%;
+	float: left;
+	color: #ffffff;
+	background-color: #000000;
+	text-align: center;
+	font-size: 15px;
+	font-family: sans-serif;
 }
 * {
-  box-sizing: border-box;
+	box-sizing: border-box;
 }
-
-
-
 #thanks {
-    -webkit-transition: all 1s ease;
-  -moz-transition: all 1s ease;
-  -ms-transition: all 1s ease;
-  -o-transition: all 1s ease;
-  transition: all 1s ease;
-  position: absolute;
-  bottom: -50%;
-  background: #000;
-  color: #fff;
-  padding: 1%;
+	-webkit-transition: all 1s ease;
+	-moz-transition: all 1s ease;
+	-ms-transition: all 1s ease;
+	-o-transition: all 1s ease;
+	transition: all 1s ease;
+	position: absolute;
+	bottom: -50%;
+	background: #000;
+	color: #fff;
+	padding: 1%;
 }
 #thanks a {
-  color: #fff;
-  text-decoration: underline;
-  font-weight: normal;
+	color: #fff;
+	text-decoration: underline;
+	font-weight: normal;
 }
