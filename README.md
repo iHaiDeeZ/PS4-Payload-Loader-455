@@ -1,7 +1,7 @@
-# PS4 4.55 Payload Loader
+# PS4 4.55 HEN & Debug Settings Payload Loader
 ---
 <p align="center">
-Load Payloads Using 4.55 Kernel Exploit without having to send payloads using NETCAT.
+Load HEN & Debug Settings Payload Using 4.55 Kernel Exploit without having to send payloads using NETCAT.
   </p>
   
 ![PS4Loader](https://i.gyazo.com/e8c78b230f85ff38d21b413c14b18290.png)
