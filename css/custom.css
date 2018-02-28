@@ -126,7 +126,7 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d80d6', end
       top: 50%;
       left: 50%;
       float:left;
-      text-shadow: 0 0 3px #33ccff;
+      color: #FFFFFF;
 
       font-size: 45px;
       font-family: sans-serif;
@@ -135,14 +135,22 @@ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#1d80d6', end
     }
 
     .credits {
+       overflow: hidden;
+      position: fixed;
       position: absolute;
-  right: 0;
-  bottom: 0;
-  left: 0;
-  height: 5%;
+      background-size: 100%;
+      right: 0;
+      bottom: 0;
+      left: 0;
+      height: 5%;
+      float:left;
+
   color: #ffffff;
   background-color: #000000;
+
   text-align: center;
+   font-size: 15px;
+      font-family: sans-serif;
 }
 * {
   box-sizing: border-box;
