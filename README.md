@@ -13,8 +13,7 @@ This bug was discovered by qwertyoruiopz, and can be found hosted on his website
 ## Features
 1) Payload Auto-Loaded Via Kernel Exploit
 2) PS4Hen & Full Debug Settings 
-3) Automatic Refresh if Exploit fails.  ```(	window.location.reload(1); }, 5000);) ```
-4) Coming Soon.
+3) Coming Soon.
 
 **No Need to use Netcat.**
 
